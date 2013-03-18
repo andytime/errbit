@@ -28,8 +28,8 @@ test:
 # set these environment variables on your prod server
 production:
   <<: *defaults
-  host: <%= ENV['MONGOID_HOST'] %>
-  port: <%= ENV['MONGOID_PORT'] %>
-  username: <%= ENV['MONGOID_USERNAME'] %>
-  password: <%= ENV['MONGOID_PASSWORD'] %>
+  host: localhost
+  port: 27017
+  username: 
+  password: 
   database: errbit_production
